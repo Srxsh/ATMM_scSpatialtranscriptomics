@@ -7,4 +7,12 @@ The spatial data of T cells and Endothelial cell subtypes are obtained from the 
 The steps involving scRNA sequencing analysis and visulaisation have been inspired from R toolkit called 'Seurat'
 
 The steps involving spatial transcriptomics analysis is done using codes obtained from another github repository called InSitu Type. 
-
+the order in which the code needs to be followed is as given below:
+1. ScRNA_datapreprocessing.R
+2. integration_mBE.R
+3. DEG_up&downregulated.R
+4. DEGcodes2.R
+5. GOenrichment.R
+6. Insitutype.R
+7. spatialdistance.R
+   
